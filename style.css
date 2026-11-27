@@ -1,0 +1,101 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+
+    /* Add Background Image */
+    background-image: url('image/background.jpg');
+
+    /* Adjust Background Image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 30px;
+}
+
+
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #17365D;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+}
+
+.form-box, .table-box {
+    background: rgba(255, 255, 255, 0.90);
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+h2 {
+    color: #17365D;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background: #17365D;
+    color: white;
+    border: none;
+    padding: 13px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #24558a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #17365D;
+    color: white;
+}
+
+.success {
+    background: #d4edda;
+    color: #155724;
+    padding: 12px;
+    border-radius: 5px;
+}
